@@ -23,7 +23,7 @@ export default function RootLayout({
    return (
       <html lang="en">
          <head>
-         <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="chrystalesia" data-description="Support me on Buy me a coffee!" data-message="Buat beli kopi di FM!" data-color="#FF813F" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+         <script async data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="chrystalesia" data-description="Support me on Buy me a coffee!" data-message="Buat beli kopi di FM!" data-color="#FF813F" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
          </head>
          <body className={inter.className} style={{backgroundColor:'#F5FBFF'}}>
                <ThemeProvider theme={theme}>

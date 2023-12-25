@@ -16,7 +16,7 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const verticalCardList: Story = {
+export const VerticalCardList: Story = {
    args: {
       collectionTitle: "Populer",
       ratio: "vertical",

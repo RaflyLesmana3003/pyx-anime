@@ -9,7 +9,7 @@ export class AnimeMap {
             name: item.name,
             rating: item.rating,
             category: item.category,
-            thumbnail: item.thumbnail,
+            thumbnail: item.image,
             stream_link: item.stream_link,
             download_720p: item.download_720p,
             download_1080p: item.download_1080p,

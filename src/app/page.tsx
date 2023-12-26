@@ -31,8 +31,8 @@ export default async function Page() {
             
             <AnimeBanner></AnimeBanner>
          </Box>
-         <AnimeCardList collectionTitle='Highest Rating' animes={highRatedAnimes} ratio='horizontal' ></AnimeCardList>
-
+         {highRatedAnimes.length == 0? null
+         :<AnimeCardList collectionTitle='Highest Rating' animes={highRatedAnimes} ratio='horizontal' ></AnimeCardList>}
          <AnimeCardList collectionTitle='Newly Added' animes={animes} ratio='vertical' ></AnimeCardList>
       </main>
    )

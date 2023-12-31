@@ -5,7 +5,7 @@ import { AnimeCard } from './animeCard';
 import { AnimeDTO } from '@/types/Anime';
 import NavigateNextRoundedIcon from '@mui/icons-material/NavigateNextRounded';
 import NavigateBeforeRoundedIcon from '@mui/icons-material/NavigateBeforeRounded';
-import { theme } from '@/theme/theme';
+import { theme } from '../../theme/theme';
 
 interface animeCardListProps{
    animes : AnimeDTO[],

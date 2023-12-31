@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Box, Button, Typography, styled } from '@mui/material';
 import StarRoundedIcon from '@mui/icons-material/StarRounded';
 import { AnimeDTO } from '@/types/Anime';
+import { AnimeDetail } from '../animeDetail/animeDetail';
 
 interface animeCardProps{
    anime : AnimeDTO,
@@ -14,8 +15,12 @@ export const AnimeCard = ({
    sx,
    ratio
 }: animeCardProps) => {
-   return (
-      <Box sx={{
+   const [openDetail, setOpenDetail] = useState(false);
+
+   return (<>
+      <Box onClick={() => {
+         setOpenDetail(true)
+      }} sx={{
          cursor: 'pointer',
          width: ratio == "vertical"? '13rem': '18rem',
          height: ratio == "vertical"? '18rem': '13rem',
@@ -55,8 +60,9 @@ export const AnimeCard = ({
                Action, Drama
             </Typography>
          </Box>
-
       </Box>
-
+      <AnimeDetail anime={anime} isDetailOpen={openDetail} onCloseModal={()=>{
+         setOpenDetail(false)}} />
+      </>
    )
 }

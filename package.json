@@ -23,7 +23,8 @@
     "class-validator": "^0.14.0",
     "next": "14.0.3",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-iframe": "^1.8.5"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.6.6",

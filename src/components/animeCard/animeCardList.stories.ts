@@ -29,7 +29,8 @@ export const VerticalCardList: Story = {
             category: 'Action, Adventure, Superhero',
             stream_link: 'http://google.mp4',
             download_720p: 'http://google.mp4',
-            download_1080p: 'http://google.mp4'
+            download_1080p: 'http://google.mp4',
+            description:""
          },
          {
             uuid: "567e2ab02ef6e6473d3c195ba21d98f0bac4b3d1",
@@ -39,7 +40,8 @@ export const VerticalCardList: Story = {
             category: 'Romance, Comedy',
             stream_link: 'http://google.mp4',
             download_720p: 'http://google.mp4',
-            download_1080p: 'http://google.mp4'
+            download_1080p: 'http://google.mp4',
+            description:""
          },
          {
             uuid: "9e184340cce63b410f42d28ecf02212be4c7fb82",
@@ -49,7 +51,8 @@ export const VerticalCardList: Story = {
             category: 'Action, Fantasy',
             stream_link: 'http://google.mp4',
             download_720p: 'http://google.mp4',
-            download_1080p: 'http://google.mp4'
+            download_1080p: 'http://google.mp4',
+            description:""
          },
          {
             uuid: "93376cc7903ee38a49107d49cd579c5280512015",
@@ -59,7 +62,8 @@ export const VerticalCardList: Story = {
             category: 'Action, Adventure, Supernatural',
             stream_link: 'http://google.mp4',
             download_720p: 'http://google.mp4',
-            download_1080p: 'http://google.mp4'
+            download_1080p: 'http://google.mp4',
+            description:""
          }
       ]
    },
@@ -79,7 +83,8 @@ export const HorizontalCardList: Story = {
             category: 'Action, Adventure, Superhero',
             stream_link: 'http://google.mp4',
             download_720p: 'http://google.mp4',
-            download_1080p: 'http://google.mp4'
+            download_1080p: 'http://google.mp4',
+            description:""
          },
          {
             uuid: "567e2ab02ef6e6473d3c195ba21d98f0bac4b3d1",
@@ -89,7 +94,8 @@ export const HorizontalCardList: Story = {
             category: 'Romance, Comedy',
             stream_link: 'http://google.mp4',
             download_720p: 'http://google.mp4',
-            download_1080p: 'http://google.mp4'
+            download_1080p: 'http://google.mp4',
+            description:""
          },
          {
             uuid: "9e184340cce63b410f42d28ecf02212be4c7fb82",
@@ -99,7 +105,8 @@ export const HorizontalCardList: Story = {
             category: 'Action, Fantasy',
             stream_link: 'http://google.mp4',
             download_720p: 'http://google.mp4',
-            download_1080p: 'http://google.mp4'
+            download_1080p: 'http://google.mp4',
+            description:""
          },
          {
             uuid: "93376cc7903ee38a49107d49cd579c5280512015",
@@ -109,7 +116,8 @@ export const HorizontalCardList: Story = {
             category: 'Action, Adventure, Supernatural',
             stream_link: 'http://google.mp4',
             download_720p: 'http://google.mp4',
-            download_1080p: 'http://google.mp4'
+            download_1080p: 'http://google.mp4',
+            description:""
          }
       ]
    },

@@ -26,7 +26,8 @@ export const VerticalCard: Story = {
          category: 'Drama, Comedy',
          stream_link: 'http://google.mp4',
          download_720p: 'http://google.mp4',
-         download_1080p: 'http://google.mp4'
+         download_1080p: 'http://google.mp4',
+         description:""
       }
    },
 };
@@ -42,7 +43,8 @@ export const HorizontalCard: Story = {
          category: 'Drama, Comedy',
          stream_link: 'http://google.mp4',
          download_720p: 'http://google.mp4',
-         download_1080p: 'http://google.mp4'
+         download_1080p: 'http://google.mp4',
+         description:""
       }
    },
 };
